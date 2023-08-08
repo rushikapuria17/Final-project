@@ -1,0 +1,394 @@
+/* Importing font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* Global reset for margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the logo in the header section */
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo image styles */
+.logo img {
+    border: 3px solid white;
+    border-radius: 50px;
+    width: 33%;
+}
+
+/* Header section styles */
+header {
+    position: fixed;
+}
+
+/* Styles for the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    width: 100vw;
+}
+
+/* Styles for the navigation list */
+.nav-list {
+    width: 70%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: black; */
+}
+
+/* Styles for navigation list items */
+.nav-list li {
+    list-style: none;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+/* Styles for navigation links */
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Styles for navigation links on hover */
+.nav-list li a:hover {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+/* Styles for the right navigation section */
+.rightnav {
+    /* background-color: black; */
+    width: 30%;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0 12px;
+}
+
+/* Styles for the search input */
+#search {
+    padding: 5px;
+    border: 2px solid grey;
+    font-size: 17px;
+    border-radius: 9px;
+}
+
+/* Background styles */
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../img/bgi.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* Main box styles */
+.box-main {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    height: 60%;
+    margin: auto;
+}
+
+/* Styles for the first section */
+.firstSection {
+    height: 100vh;
+}
+
+/* Styles for the first half of the section */
+.firsthalf {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Styles for the second half of the section */
+.secondhalf {
+    width: 30%;
+}
+
+/* Styles for images in the second half */
+.secondhalf img {
+    width: 70%;
+    border: 2px solid wheat;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+/* Styles for large text */
+.text-big {
+    font-size: 35px;
+}
+
+/* Styles for small text */
+.text-small {
+    font-size: 18px;
+}
+
+/* Button styles */
+.btn {
+    text-decoration: none;
+    padding: 8px 20px;
+    margin: 15px;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+    background: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Button link styles */
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Button link styles on hover */
+.btn a:hover {
+    color: black;
+}
+
+/* Button styles on hover */
+.btn:hover {
+    color: black;
+    background-color: white;
+}
+
+/* Small button styles */
+.btn-sm {
+    padding: 4px 9px;
+    margin: 0 12px;
+    cursor: pointer;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 11px;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Dark button styles */
+.btn-dark {
+    background: none;
+    border: .5px solid black;
+    border-radius: 8px;
+    padding: 6px 12px ;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Dark button styles on hover */
+.btn-dark:hover {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Small button styles on hover */
+.btn-sm:hover {
+    color: black;
+    background-color: white;
+    vertical-align: middle;
+}
+
+/* Section styles */
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Section styles for reversing layout */
+.left {
+    flex-direction: row-reverse;
+}
+
+/* Paragraph styles */
+.paras {
+    padding: 65px;
+}
+
+/* Subtag styles */
+.subtag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Thumbnail image styles */
+.Thumbnail img {
+    border: 2px solid black;
+    border-radius: 26px;
+}
+
+/* Thumbnail styles */
+.Thumbnail {
+    padding: 0;
+}
+
+/* Large text padding */
+.text-big {
+    padding: 20px 0px;
+}
+
+/* Contact section styles */
+.contact {
+    background: rgba(0, 0, 0, 0.7) url('../img/bgi.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* Text center styles */
+.text-center {
+    text-align: center;
+    padding: 7px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    color: wheat;
+}
+
+/* Form styles */
+.form {
+    max-width: 500px;
+    margin: 25px auto;
+}
+
+/* Form input styles */
+.form-input {
+    margin: 7px 0px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 7px;
+    padding: 9px;
+}
+
+/* Submit button styles */
+.but {
+    border: 2px solid wheat;
+    border-radius: 12px;
+    color: wheat;
+    background-color: black;
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Submit button styles on hover */
+.but:hover {
+    cursor: pointer;
+    color: whitesmoke;
+    font-weight: bold;
+    border: 2px solid whitesmoke;
+}
+
+/* Footer text styles */
+.text-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    padding: 20px;
+    margin: auto;
+}
+
+/* Burger menu styles */
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+/* Section 1 styles */
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.7) url('../img/bgi.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* Paragraph 1 styles */
+.para1 {
+    padding: 12px;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+}
+
+/* Line styles */
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+/* Media query for responsive design */
+@media only screen and (max-width: 1140px) {
+    /* Navigation and navbar adjustments for smaller screens */
+    .nav-list {
+        flex-direction: column;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+
+    /* Right navigation adjustments for smaller screens */
+    .rightnav {
+        text-align: center;
+        flex-direction: column;
+        width: 30%;
+    }
+
+    /* Search input adjustments for smaller screens */
+    #search {
+        width: 100%;
+    }
+
+    /* Display burger menu on smaller screens */
+    .burger {
+        display: block;
+    }
+
+    /* Adjust header height for smaller screens */
+    .h-nav {
+        height: 62px;
+    }
+
+    /* Hide vertical navigation elements on smaller screens */
+    .v-class-resp {
+        opacity: 0;
+    }
+}
